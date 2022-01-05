@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "https://git.heroku.com/whatsapp-deployed",
+  baseURL: "http://localhost:8080",
 });
 
 export default instance;
